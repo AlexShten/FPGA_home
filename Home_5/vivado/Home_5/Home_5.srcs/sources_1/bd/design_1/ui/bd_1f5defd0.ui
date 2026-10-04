@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-239,-1174",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1610 -y -570 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1610 -y -540 -defaultsOSRD
+preplace port leds -pg 1 -lvl 5 -x 1610 -y -830 -defaultsOSRD
+preplace port buttons -pg 1 -lvl 5 -x 1610 -y -710 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 700 -y -520 -defaultsOSRD -resize 336 244
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 700 -y -870 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 2 -x 700 -y -730 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 1 -x 340 -y -950 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1410 -y -630 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 1070 -y -350 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 340 -y -600 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 210 -840 490 -960 900 -570 1270
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 890 -440n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 200 -830 480 -970 NJ -970 1250
+preplace netloc xlconcat_0_dout 1 1 1 470 -600n
+preplace netloc axi_timer_0_interrupt 1 0 2 210 -660 470
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -600 1240 -710 1580
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -560 1240 -540 N
+preplace netloc axi_gpio_0_GPIO 1 2 3 NJ -870 NJ -870 1590J
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 890J -580 1260
+preplace netloc axi_smc_M00_AXI 1 1 4 510 -980 NJ -980 NJ -980 1560
+preplace netloc axi_gpio_1_GPIO 1 2 3 NJ -730 NJ -730 1590J
+preplace netloc axi_smc_M01_AXI 1 1 4 500 -950 NJ -950 NJ -950 1550
+preplace netloc axi_smc_M02_AXI 1 0 5 210 -1060 NJ -1060 NJ -1060 NJ -1060 1570
+levelinfo -pg 1 0 340 700 1070 1410 1610
+pagesize -pg 1 -db -bbox -sgen -10 -1380 1720 200
+"
+}
+
